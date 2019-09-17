@@ -1,0 +1,28 @@
+{
+  "name": "Channels Chatbot",
+  "description": "Get Channel Meta Data in Zoom Chat",
+  "repository": "https://github.com/tommygaessler/channels-chatbot",
+  "keywords": ["zoom", "chatbot", "node.js", "express"]
+  "env": {
+    "client_id": {
+      "description": "Your Zoom Production Client ID, found on your Zoom App Credentials page",
+      "value": "",
+      "required": true
+    },
+    "client_secret": {
+      "description": "Your Zoom Production Client Secret, found on your Zoom App Credentials page",
+      "value": "",
+      "required": true
+    },
+    "bot_jid": {
+      "description": "Your Zoom Production Bot JID, found on your Zoom Features page",
+      "value": "",
+      "required": true
+    },
+    "verification_token": {
+      "description": "Your Zoom Verification Token, found on your Zoom Features page",
+      "value": "",
+      "required": true
+    }
+  }
+}
