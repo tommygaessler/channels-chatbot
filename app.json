@@ -2,6 +2,7 @@
   "name": "Channels Chatbot",
   "description": "Get Channel Meta Data in Zoom Chat",
   "repository": "https://github.com/tommygaessler/channels-chatbot",
+  "logo": "",
   "keywords": ["zoom", "chatbot", "node.js", "express"]
   "env": {
     "client_id": {
