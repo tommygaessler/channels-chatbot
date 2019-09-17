@@ -1,6 +1,6 @@
 # Channels Chatbot
 
-## Production Setup
+## Server Setup
 
 To run the completed Chatbot on a live server, follow these steps,
 
@@ -8,13 +8,13 @@ To run the completed Chatbot on a live server, follow these steps,
 
    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-2. Fill in your [**Production** Zoom Chatbot API credentials](https://marketplace.zoom.us/docs/guides/getting-started/app-types/create-chatbot-app#register).
+2. Fill in your [Zoom Chatbot API credentials](https://marketplace.zoom.us/docs/guides/getting-started/app-types/create-chatbot-app#register).
 
 3. Click **Deploy app**.
 
-4. On your App Marketplace Dashboard, add your Heroku url (https://yourherokuurl.com) to your Whitelist URLs (App Credentials Page), **Production** Redirect URL for OAuth (https://yourherokuurl.com/authorize) (App Credentials Page), and **Production** Bot Endpoint URL (https://yourherokuurl.com/webhook) (Features Page).
+4. On your App Marketplace Dashboard, add your Heroku url (https://yourherokuurl.com) to your Whitelist URLs (App Credentials Page), Redirect URL for OAuth (https://yourherokuurl.com/authorize) (App Credentials Page), and Bot Endpoint URL (https://yourherokuurl.com/webhook) (Features Page).
 
-5. On your App Marketplace Dashboard, go to the **Submit** page and click **Add to Zoom**. After you click the **Authorize** button, you should be taken to your redirect url and see this,
+5. On your App Marketplace Dashboard, go to the **Local Test** page and click **Install** (to install using your development credentials) or go to the **Submit** page and click **Add to Zoom** (to install using your production credentials). After you click the **Authorize** button, you should be taken to your redirect url and see this,
 
    `Your Chatbot is now installed, open the Zoom App and type /slashcommand list in a channel or list in the Channels Chatbot!`
 

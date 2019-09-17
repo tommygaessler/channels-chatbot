@@ -5,17 +5,17 @@
   "keywords": ["zoom", "chatbot", "node.js", "express"],
   "env": {
     "client_id": {
-      "description": "Your Zoom Production Client ID, found on your Zoom App Credentials page",
+      "description": "Your Zoom Client ID, found on your Zoom App Credentials page",
       "value": "",
       "required": true
     },
     "client_secret": {
-      "description": "Your Zoom Production Client Secret, found on your Zoom App Credentials page",
+      "description": "Your Zoom Client Secret, found on your Zoom App Credentials page",
       "value": "",
       "required": true
     },
     "bot_jid": {
-      "description": "Your Zoom Production Bot JID, found on your Zoom Features page",
+      "description": "Your Zoom Bot JID, found on your Zoom Features page",
       "value": "",
       "required": true
     },
