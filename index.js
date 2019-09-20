@@ -74,7 +74,7 @@ app.post('/webhook', (req, res) => {
             postChat(body.access_token, [
               {
                 type: 'message',
-                text: 'type `/slashcommand list` in a channel or `list` in the Channels Chatbot.'
+                text: 'type `/yourslashcommand list` or `/yourslashcommand details` in a channel or `list` or `details` in the Channels Chatbot.'
               }
             ])
           }
@@ -95,7 +95,7 @@ app.post('/webhook', (req, res) => {
           postChat(body.access_token, [
             {
               type: 'message',
-              text: 'type `/slashcommand list` in a channel or `list` in the Channels Chatbot.'
+              text: 'type `/yourslashcommand list` or `/yourslashcommand details` in a channel or `list` or `details` in the Channels Chatbot.'
             }
           ])
         }
