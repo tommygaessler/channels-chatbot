@@ -38,7 +38,7 @@ app.post('/webhook', (req, res) => {
         console.log('Error getting Chatbot token from Zoom.', error)
       } else {
         body = JSON.parse(body)
-        if(req.body.payload.cmd) {
+        if(req.body.event === 'bot_notification') {
           if(req.body.payload.cmd.toLowerCase() === 'list') {
             postChat(body.access_token, [
               {
@@ -78,7 +78,7 @@ app.post('/webhook', (req, res) => {
               }
             ])
           }
-        } else if(req.body.payload.selectedItems.length) {
+        } else if(req.body.event === 'interactive_message_select') {
           postChat(body.access_token, [
             {
               type: 'fields',
